@@ -3,8 +3,10 @@
 
 [linux]
 192.168.0.20
+192.168.0.25
 192.168.0.27
-
+192.168.0.50
+192.168.0.51
 
 [linux:vars]
 ansible_python_interpreter='/usr/bin/env python3'
