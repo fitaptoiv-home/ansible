@@ -20,3 +20,8 @@ ansible-playbook update_linux.yml -K
 ansible-playbook update_dns.yml -K
 
 ansible linux -m ping
+
+
+ssh-add git_key
+cat git_key.pub
+ssh -vT git@github.com
