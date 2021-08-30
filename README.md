@@ -22,6 +22,8 @@ ansible-playbook update_dns.yml -K
 ansible linux -m ping
 
 
-ssh-add git_key
+
+ssh-add ~/.ssh/git_key    Add a key to ssh-agent Kol...
+ssh-add -l                List keys for ssh agent
 cat git_key.pub
 ssh -vT git@github.com
