@@ -26,4 +26,7 @@ eval `ssh-agent -s`       Start ssh-agent
 ssh-add ~/.ssh/git_key    Add a key to ssh-agent Kol...
 ssh-add -l                List keys for ssh agent
 cat git_key.pub
-ssh -vT git@github.com
+ssh -vT git@github.com    test authentication
+git remote -v             check linked remote repository
+git pull 
+git pull origin 
