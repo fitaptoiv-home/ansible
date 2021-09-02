@@ -13,7 +13,7 @@ git push origin main
 
 ansible linux -a "cat /etc/os-release"
 
-ansible-playbook iluvnano.yml
+ansible-playbook iluvnano.yml -bK
 
 ansible-playbook update_linux.yml -K
 
