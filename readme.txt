@@ -1,5 +1,4 @@
 ansible
-
 git status
 
 git diff README.md
