@@ -37,3 +37,7 @@ git remote -v             check linked remote repository
 git pull 
 
 git pull origin 
+
+git branch
+
+git checkout test-branch
