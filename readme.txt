@@ -11,6 +11,8 @@ ansible-playbook update_linux.yml -K
 ansible-playbook update_dns.yml -K
 ansible linux -m ping
 
+git config --global user.name "TapioT"
+git config --global user.email "xxxx@gmail.com"
 git init
 eval ssh-agent -s Start ssh-agent
 ssh-add ~/.ssh/git_key Add a key to ssh-agent Kol...
