@@ -10,6 +10,8 @@ ansible-playbook iluvnano.yml -bK
 ansible-playbook update_linux.yml -K
 ansible-playbook update_dns.yml -K
 ansible linux -m ping
+
+git init
 eval ssh-agent -s Start ssh-agent
 ssh-add ~/.ssh/git_key Add a key to ssh-agent Kol...
 ssh-add -l List keys for ssh agent
