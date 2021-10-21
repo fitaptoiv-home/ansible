@@ -23,5 +23,11 @@ git remote -v check linked remote repository
 git pull
 git pull origin
 git clone https://github.com/fitaptoiv-home/basic ~/basic Clone remote and create local from scratch
-git branch
-git checkout
+
+
+
+
+git branch bugfix
+git checkout bugfix
+git commit
+Git merge main/bugfix
