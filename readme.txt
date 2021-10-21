@@ -9,7 +9,7 @@ ansible linux -a "cat /etc/os-release"
 ansible-playbook iluvnano.yml -bK
 ansible-playbook update_linux.yml -K
 ansible-playbook update_dns.yml -K
-ansible linux -m ping
+ansible linux -m ping 
 
 git config --global user.name "TapioT"
 git config --global user.email "xxxx@gmail.com"
