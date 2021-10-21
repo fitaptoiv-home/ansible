@@ -1,5 +1,5 @@
 #  This is the default ansible 'hosts' file.
-#This is empty line with hash
+#
 #
 [linux]
 192.168.0.20
