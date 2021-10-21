@@ -30,4 +30,5 @@ git clone https://github.com/fitaptoiv-home/basic ~/basic Clone remote and creat
 git branch bugfix
 git checkout bugfix
 git commit
-Git merge main/bugfix
+git merge main/bugfix
+git push origin main
