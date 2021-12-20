@@ -14,6 +14,7 @@ ansible linux -m ping
 git config --global user.name "TapioT"
 git config --global user.email "xxxx@gmail.com"
 git init
+git clone https://github.com/fitaptoiv-home/ansible
 eval ssh-agent -s Start ssh-agent
 ssh-add ~/.ssh/git_key Add a key to ssh-agent Kol...
 ssh-add -l List keys for ssh agent
